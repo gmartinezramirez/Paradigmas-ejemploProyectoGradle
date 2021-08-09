@@ -1,5 +1,11 @@
 # Compilación y ejecución utilizando Javac
 
+En Java la compilación y ejecución de los proyectos se puede realizar de dos formas (i) Manual o 
+(ii) Utilizando una herramienta de automatización. Dentro de esta última categoría existen herramientas como
+Maven o Gradle. Especificamente en este curso se hará uso de Gradle.
+
+A continuación se presenta la forma manual y posteriormente automatizada de la compilación y ejecución de programas Java.
+
 ## Compilación
 
 * La compilación se realiza a través del uso del compilador javac, el cual viene incluido en la instalación del JDK.
@@ -55,6 +61,19 @@ java com.paradigmas.shoppingsystem.Main
 # Compilación y ejecución utilizando Gradle
 
 * Recomiendo utilizar Gradle, ya que funciona de forma independiente al sistema operativo.
+* Para la compilación se ejecuta el comando: ./gradlew build
+* Para la ejecución se ejecuta el comando: ./gradlew run
+
+* Para hacer uso de Gradle no es necesario previamente instalar alguna herramienta o programa.
+* Para crear un proyecto Gradle se puede utilizar el IDE IntelliJ IDEA.
+  * Deben ir a menu superior, File -> New -> Project -> Gradle -> Seleccionar Java y apretar botón Next.
+* Para incluir Gradle en su proyecto simplemente deben copiar los archivos gradle del presente repositorio hacia su proyecto
+    * Esto es:
+        * gradle/  (carpeta gradle)
+        * build.gradle
+        * gradlew
+        * gradlew.bat
+        * settings.gradle
 * Para la compilación se ejecuta el comando: ./gradlew build
 * Para la ejecución se ejecuta el comando: ./gradlew run
 
