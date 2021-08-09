@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.paradigmas.shoppingsystem.Main'
+
+group 'com.paradigmas'
+version '1.0-RELEASE'
+
+run{
+    standardInput = System.in
+}
+
+version = '1.2.1'
+
